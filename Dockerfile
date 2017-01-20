@@ -17,7 +17,7 @@ RUN python --version
 # Install pip
 #RUN curl -O https://bootstrap.pypa.io/get-pip.py
 #RUN python3 get-pip.py --user
-ENV PATH ~/.local/bin:$PATH
+ENV PATH /root/.local/bin:$PATH
 RUN pip --version
 
 # Install awsebcli
